@@ -34,7 +34,8 @@ Property名|描述
 
 #### **若ReleaseType为GithubRelease，发布新版本的插件** ( [例子](https://github.com/MikiraSora/Wbooru.PluginsMarket/issues/1) )
 
-* 请在插件的Release页面发布新的Release,若勾选了`This is a pre-release`页面则表示此发布是预览发布，和上表ReleaseType的`Preview`等同，反之和`Stable`等同.
+  插件的Release页面发布新的Release
+* 选了`This is a pre-release`页面则表示此发布是预览发布，和上表ReleaseType的`Preview`等同，反之和`Stable`等同.
 * 上传的文件也和`DownloadURL`一样上传同样格式和要求的zip标准文件。
 * Tag version必须以上表`Version`格式一样
 * Release正文和上表`ReleaseDescription`等同
