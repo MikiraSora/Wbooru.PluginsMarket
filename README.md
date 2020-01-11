@@ -15,7 +15,7 @@ Property名|描述
 |PluginAuthor|插件作者，建议和 **PluginInfo继承类中的PluginAuthor属性** 一样|
 |Description|插件描述，建议和 **PluginInfo继承类中的PluginDescription属性** 一样|
 |ReleaseType| （可选）发布类型，表示获取此插件版本信息和下载信息的来源方式，若填写`GithubRelease`则表示此插件的下载和更新信息都可从Github公开Repo的Release页面去获取。若 **省略不填写此属性** ，则Wbooru会根据此Issue页面的评论来获取相关信息。|
-|ReleaseUrl|如果填写了ReleaseType，则必须填写此属性，若ReleaseType为`GithubRelease`,则ReleaseUrl必须填写为此插件公开repo地址(比如https://github.com/MikiraSora/WbooruPlugin.Yandere),Github Release发布的也有一定的**要求**|
+|ReleaseUrl|如果填写了ReleaseType，则必须填写此属性，若ReleaseType为`GithubRelease`,则ReleaseUrl必须填写为此插件公开repo地址(比如https://github.com/MikiraSora/WbooruPlugin.Yandere ),Github Release发布的也有一定的**要求**|
 
 <br>
 按照规定填写完以上表格后，会有Wbooru相关负责人来检查以上内容是否符合规定，之后会给此Issue添加一个`Plugin-Release`标签。只有含有此标签的Issue，才会被Wbooru识别并在插件市场页面显示。
